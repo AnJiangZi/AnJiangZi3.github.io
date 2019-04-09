@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+			 <title>Document</title>
+		<style>
+				*{margin:0px;padding:0px;}
+				.banner{position:relative;width:1381px;height:462px;background-color:#59c8e8;margin:200px auto;list-style:none;display:flex;align-items:flex-end;}
+				
+				.banner li{height:64px;border:1px solid #ff6666;flex:1;align-items:flex-end;}
+
+				.banner li a{position:relative;z-index:1;display:block;height:42px;background:rgba(44, 44, 44, 0.85);color:#ffffff;padding:11px;text-align:center;font-size:14px;cursor:pointer;}
+				.banner li a:hover{background:#575757;}
+
+				.banner li img{position:absolute;top:0px;left:0px;opacity:0;}
+
+				.banner li a:hover + img{opacity:1;}
+
+				.banner li:nth-child(1) img{opacity:1;}
+		
+		</style>
+
+	</head>
+	<body>
+				<ul class="banner">
+						<li>
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/1.jpg">
+						</li>
+						<li>
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/2.jpg">
+						</li>
+						<li>
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/3.jpg">
+						</li>
+						<li>								
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/4.jpg">
+						</li>
+						<li>								
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/5.jpg">
+						</li>
+						<li>								
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/6.jpg">
+						</li>
+						<li>
+								<a href="https://www.baidu.com">
+									<p>2018成龙</p>
+									<p>大电影</p>
+								</a>
+								<img src="images/7.jpg">
+						</li>
+				</ul>
+  
+	</body>
+</html>
